@@ -1,0 +1,141 @@
+html {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: hsl(0, 100%, 74%);
+  background-image: url(images/bg-intro-desktop.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+
+.phone {
+  padding-top: 22rem;
+}
+
+.heading {
+  font-size: 35pt;
+}
+
+.text {
+  font-size: 12pt;
+}
+
+.btn {
+  font-family: "Poppins", sans-serif;
+
+  background-color: hsl(248, 32%, 49%);
+  box-shadow: 0px 10px 0px #0000001e;
+  height: 4rem;
+}
+
+.card {
+  box-shadow: 0px 10px 0px #0000001e;
+}
+
+.form-control:focus {
+  border-color: black;
+}
+
+.all {
+  padding-top: 10rem;
+}
+
+.btn-claim {
+  font-family: "Poppins", sans-serif;
+  background-color: hsl(154, 59%, 51%);
+  border-color: hsl(154, 59%, 51%);
+  height: 3rem;
+}
+
+.btn-claim:focus {
+  border: none;
+  outline: none;
+}
+
+.form-group {
+  font-family: "Poppins", sans-serif;
+}
+
+.text-2 {
+  font-size: 9pt;
+  font-family: "Poppins", sans-serif;
+}
+
+.terms {
+  color: hsl(0, 100%, 74%);
+}
+
+.attribution {
+  text-align: center;
+  padding-top: 8rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .phone {
+    padding-top: 5rem;
+  }
+
+  .heading {
+    font-size: 30pt;
+    text-align: center;
+  }
+
+  .text {
+    padding-top: 1rem;
+    text-align: center;
+    font-size: 14pt;
+  }
+
+  .new_line {
+    display: block;
+  }
+
+  .all {
+    padding-top: 1rem;
+  }
+
+  .btn {
+    background-color: hsl(248, 32%, 49%);
+    box-shadow: 0px 10px 0px #0000001e;
+    height: 7rem;
+    border-radius: 1rem;
+    text-align: center;
+  }
+
+  .then {
+    display: block;
+  }
+
+  .card {
+    border-radius: 0.5rem;
+    box-shadow: 0px 10px 0px #0000001e;
+  }
+  .w {
+    display: block;
+  }
+
+  .attribution {
+    text-align: center;
+    padding-top: 2rem;
+  }
+
+  .btn-claim {
+    font-size: 15pt;
+    font-family: "Poppins", sans-serif;
+    background-color: hsl(154, 59%, 51%);
+    border-color: hsl(154, 59%, 51%);
+    height: 4rem;
+  }
+}
